@@ -2,11 +2,11 @@
 // Guarda TODO el juego en el celular la primera vez, para que despues
 // se pueda abrir sin internet. Lo genera hacer_version_movil.py.
 
-const VERSION = "20261112-211315";
+const VERSION = "20261112-230955";
 const CACHE = "brigada2030-" + VERSION;
 const COMUNES = [["./", 18746], ["manifest.webmanifest", 645], ["favicon.png", 70281], ["icono-192.png", 70281], ["icono-512.png", 387003], ["icono-maskable.png", 264704], ["cdn/0.9.3/pythons.js", 69205], ["cdn/0.9.3/cpythonrc.py", 52063], ["cdn/0.9.3/empty.html", 14], ["cdn/0.9.3/empty.ogg", 4035], ["cdn/0.9.3/cpython312/main.js", 849985], ["cdn/0.9.3/cpython312/main.wasm", 13447111], ["cdn/0.9.3/cpython312/main.data", 6668609], ["cdn/index-0.9.3-cp312.json", 1374], ["cdn/vtx.js", 9887], ["cdn/vt/xterm.js", 283404], ["cdn/vt/xterm.css", 5383], ["cdn/vt/xterm-addon-image.js", 54544], ["cdn/cp312/pygame_ce-2.5.7-cp312-cp312-wasm32_bi_emscripten.whl", 1527290]];          // [archivo, bytes]
-const ARCHIVO_TAR = ["juego_web.tar.gz", 67241360];
-const ARCHIVO_APK = ["juego_web.apk", 67317914];          // itch.io usa este en vez del .tar.gz
+const ARCHIVO_TAR = ["juego_web.tar.gz", 68066525];
+const ARCHIVO_APK = ["juego_web.apk", 68142147];          // itch.io usa este en vez del .tar.gz
 
 const TIPOS = {
   js: "text/javascript", wasm: "application/wasm", html: "text/html",
